@@ -30,6 +30,10 @@ end
 
 gem 'jquery-rails'
 gem 'jpmobile'
+gem 'devise'
+gem 'rails3_acts_as_paranoid'
+gem 'nokogiri'
+gem 'i18n_generators'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

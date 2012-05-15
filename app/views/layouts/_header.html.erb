@@ -1,1 +1,3 @@
-<h1>まいトレ<h1>
+<%= link_to '刻言道場「まいトレ」', root_url -%>
+<%= link_to('サインイン', new_user_session_path) unless current_user %>
+<%= link_to('サインアウト', destroy_user_session_path, :method => :delete) if current_user %>
