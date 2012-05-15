@@ -1,5 +1,9 @@
 Maitore::Application.routes.draw do
-  get "top/index"
+  root :to => 'top#index'
+  get '/about'  => 'about#index'
+  get '/news'   => 'news#index'
+  get '/access' => 'access#index'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
