@@ -5,6 +5,7 @@ Maitore::Application.routes.draw do
   get '/about'  => 'about#index'
   get '/news'   => 'news#index'
   get '/access' => 'access#index'
+  get '/members' => 'members#index'
 
 
   # The priority is based upon order of creation:
